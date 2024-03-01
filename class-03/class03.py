@@ -1,12 +1,6 @@
-c = 15
-def sum(a,b):
-   c = a+b
-   return c
+name: str = "zafeer"
+print("q" in name)
 
-d = sum(10,20)
-result = print()
-# write a program that takes a two numbers and calculates the sum
-num1 = int(input("Enter first number ->"))
-num2 = int(input("Enter second number -> "))
-result =sum(num1,num2)
-print(result)
+print(10 < 5 and 10 > 5)
+print(10 < 5 or 10 > 5)
+print(not (10 < 5 and 10 > 5))
