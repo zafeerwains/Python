@@ -17,3 +17,19 @@ print(f'{messages[1]} {transports[1]}.')
 print(f'{messages[2]} {transports[2]}.')
 print(f'{messages[3]} {transports[3]}.')
 
+# Problem 3-4
+guests_list: list[str] = ["Ali", "Akbar", "Azam"]
+print(
+    f"{guests_list[0]}, You rae invited to join the Dinner Party at my House")
+print(
+    f"{guests_list[1]}, You rae invited to join the Dinner Party at my House")
+print(
+    f"{guests_list[2]}, You rae invited to join the Dinner Party at my House")
+
+# Problem 3-5
+print(guests_list)
+print(
+    f"{guests_list[1]} , are now removed from the list because he is no longer available")
+newGuest = input("Enter the new guest Who is now available => ")
+guests_list[1] = newGuest
+print(guests_list)
