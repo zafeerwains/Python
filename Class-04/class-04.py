@@ -33,3 +33,16 @@ print(
 newGuest = input("Enter the new guest Who is now available => ")
 guests_list[1] = newGuest
 print(guests_list)
+
+# Problem 3-6
+print("I have Found a Bigger Table so Inviting more guests")
+print("Old guests=>", guests_list)
+guests_list.insert(0,"Prince")
+print("Adding on start, guests=>", guests_list)
+guests_list.insert(len(guests_list) // 2, "Prince")
+print("Adding on Middle , guests=>", guests_list)
+guests_list.append("Tahir")
+print("Adding on end Using Append() , guests=>", guests_list)
+
+
+# Problem 3-7
