@@ -38,3 +38,35 @@ Animals: list[str] = ["cat", "lion", "cheetah"]
 for animal in Animals:
     print(f"I like {animal}")
 print("Any of these animals would make a great pet!")
+
+# Problem 4-3
+for i in range(0, 21):
+    print(i)
+
+# Problem 4-4
+for i in range(0, 1):  # was one million so ,due to big value use the 1
+    print(i)
+
+# Problem 4-5
+million: list[int] = [i for i in range(0, 1000001)]
+print(max(million))
+print(min(million))
+print(sum(million))
+
+# Problem 4-6
+odd_number: list[int] = [i for i in range(1,20,2)]
+for odd in odd_number:
+    print(odd)
+
+# Problem 4-7
+Threes: list[int] = [i for i in range(3,31,3)]
+for three in Threes:
+    print(three)
+
+# Problem 4-8
+Cubes: list[int] = [i**3 for i in range(1,11)]
+for cube in Cubes:
+    print(cube)
+
+# Problem 4-9
+Cubes_Comprehension: list[int] = [i**3 for i in range(1,11)]
