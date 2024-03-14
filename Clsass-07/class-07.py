@@ -20,3 +20,6 @@ for pizza in pizzas:
 print("My Fiend favorite pizzas are:")
 for pizza in friend_pizzas:
     print(pizza)
+
+# Problem 4-12
+
